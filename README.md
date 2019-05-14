@@ -12,7 +12,7 @@ Download the [Spark Simba ODBC Driver](https://www.simba.com/drivers/spark-jdbc-
 
 ### Edit the odbc.ini file
 
-Get a [token from Databricks](https://docs.databricks.com/user-guide/bi/jdbc-odbc-bi.html#username-password) and replace it in the PWD field. 
+Get a [token from Databricks](https://docs.databricks.com/user-guide/bi/jdbc-odbc-bi.html#username-password) and replace it in the `PWD` field. 
 
 [Construct your JSBC URL](https://docs.databricks.com/user-guide/bi/jdbc-odbc-bi.html#http-path) and pop it in to the `HTTPPath` field. 
 
