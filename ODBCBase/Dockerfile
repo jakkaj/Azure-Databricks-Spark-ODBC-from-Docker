@@ -28,6 +28,8 @@ ENV ODBCINI /odbc.ini
 ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu
 ENV SIMBASPARKINI /opt/simba/spark/lib/64/simba.sparkodbc.ini 
 
+RUN ln -s /opt/simba/spark /opt/simba/sparkodbc
+
 ####.NET Bits
 RUN apt-get install -y wget
 
